@@ -119,8 +119,8 @@
 .selector-img-box-outer {
     position: absolute;
     top: 0%;
-    left: 40%;
-    height: 130%;
+    left: 39%;
+    height: 35vw;
     width: auto;
     transform: rotateY(0deg);
     transform-style: preserve-3d;

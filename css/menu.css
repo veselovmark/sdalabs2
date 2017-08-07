@@ -25,7 +25,7 @@
         /* top: -80%; */
         /* left: -35%; */
         display: inline-block;
-        width: 148px;
+        width: 12vw;
 }
 
 .site-logo-img {
@@ -44,13 +44,13 @@
 
 .top-menu-option     {
     position: relative;
-    width: 170px;
-    margin: 0% 50px;
+    width: 12vw;
+    margin: 0% 25px;
     text-align: center;
     transition: all 0.3s;
     display: inline-block;
     color: white;
-    font-size: 1.8em;
+    font-size: 2.6em;
     font-weight: 100;
 }
 
