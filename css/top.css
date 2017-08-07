@@ -68,7 +68,7 @@
     display: inline-block;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 980px) {
     .top-content-text-container {
         font-size: 1em;
         position: absolute;
