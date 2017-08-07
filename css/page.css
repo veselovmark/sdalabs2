@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto Condensed";
-    font-size:12px;
+    font-size: 6px;
 }
 
 div.top-content {
@@ -9,6 +9,7 @@ div.top-content {
     background-image: url(../img/back-big.png);
     background-size: cover;
     position: relative;
+    top: -8px;
 }
 
 div.slider#slider1 {
