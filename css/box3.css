@@ -51,14 +51,14 @@
     position: relative;
     display: inline-block;
     font-size: 80px;
-    padding: 0% 0%;
+    padding: 4% 0%;
 }
 
 .mail-text {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    font-size: 1em;
+    font-size: 1.4em;
     margin: 5% 5%;
 }
 
@@ -83,7 +83,7 @@
     width: 60%;
     vertical-align: top;
     margin: 0% 3%;
-    font-size: 0.8em;
+    font-size: 1.4em;
 }
 
 #sda-labs {
