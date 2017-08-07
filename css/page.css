@@ -1,0 +1,312 @@
+body {
+    font-family: "Roboto Condensed";
+    font-size:12px;
+}
+
+div.top-content {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/back-big.png);
+    background-size: cover;
+    position: relative;
+}
+
+div.slider#slider1 {
+    position: relative;
+    left: 25%;
+    top: 10%;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    font-size: 48px;
+    font-weight: 100;
+    color:white;
+}
+
+#slider1 .slider-prev {
+    position: absolute;
+    left: 0;
+}
+
+#slider1 .slider-next {
+    position: absolute;
+    right: 0;
+}
+
+#slider1 .slider-button {
+    top: 40%;
+    /* font-size: 60px; */
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#slider1 ul.slider-list {
+    height: 100%;
+    width: 300%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#slider1 .slider-option {
+    display: table;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    /* line-height: 25; */
+    width: 60%;
+    padding-left: 20%;
+}
+
+#slider1 .slider-option-text {
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+    line-height: normal;
+    vertical-align: middle;
+    padding: 50px;
+    color:white;
+}
+
+#slider1 li {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    display: block;
+}
+
+#slider1 div.slider-circle-group {
+    position: relative;
+    bottom: 20%;
+    left: 40%;
+    /* display: inline-block; */
+}
+
+#slider1 div.slider-circle {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+object.backgorund-svg {
+    position: absolute;
+    bottom: -10%;
+    width: 120%;
+    left: -10%;
+    /* height: 10%; */
+}
+
+div.menu-option {
+    display: inline-block;
+    padding: 30px;
+    /* border-bottom: 5px solid; */
+    margin: -5px;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+div.menu-option:hover {
+    display: inline-block;
+    padding: 30px;
+    color: purple;
+    margin: -5px;
+}
+
+div.menu-option-off {
+    //border-color: white;
+}
+
+div.menu-option-filler {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    height: 10%;
+    background-color: white;
+    padding: 0px 30px;
+    margin: 0px -30px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    font-size: 1.75em;
+    color: white;
+    overflow: hidden;
+}
+
+div.slider#slider2 {
+    position: relative;
+    left: 10%;
+    top: -7%;
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+#slider2 .slider-prev {
+    position: absolute;
+    left: 0;
+}
+
+#slider2 .slider-next {
+    position: absolute;
+    right: 0;
+}
+
+#slider2 .slider-button {
+    top: 50%;
+    /* font-size: 60px; */
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: #CAEADE;
+}
+
+#slider2 ul.slider-list {
+    height: 100%;
+    width: 300%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#slider2 .slider-option {
+    display: table;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    /* line-height: 25; */
+    width: 80%;
+    padding-left: 10%;
+}
+
+#slider2 .slider-option-text {
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+    line-height: normal;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+#slider2 li {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    display: block;
+}
+
+#slider2 div.slider-circle-group {
+    position: relative;
+    bottom: 31%;
+    left: 40%;
+    /* display: inline-block; */
+}
+
+#slider2 div.slider-circle {
+    height: 30px;
+    width: 30px;
+    background-color: #CAEADE;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+@media (max-width: 980px) {
+    body {
+        font-family: "Roboto Condensed";
+        font-size: 12px;
+        min-width: 360px;
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        font-size: 1.75em;
+        color: white;
+        overflow: hidden;
+        left: 4%;
+    }
+
+    .button {
+        height: 100px;
+        width: 30%;
+        text-align: center;
+        line-height: 100px;
+        box-shadow: inset 0 0 0 purple;
+        transition: box-shadow 0.3s ease-out;
+        display: inline-block;
+        border-bottom: 5px solid white;
+        font-weight: 100;
+    }
+
+    div.slider#slider1 {
+        position: relative;
+        left: 3%;
+        top: 10%;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        font-size: 2em;
+        font-weight: 100;
+    }
+
+    #slider1 .slider-option {
+        display: table;
+        text-align: center;
+        height: 100%;
+        vertical-align: middle;
+        /* line-height: 25; */
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    object.backgorund-svg {
+        position: absolute;
+        bottom: -2%;
+        width: 214%;
+        left: -10%;
+        /* height: 10%; */
+    }
+
+    div.slider#slider2 {
+        position: relative;
+        left: 0%;
+        top: -7%;
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        font-size: 2em;
+        font-weight: 100;
+    }
+
+    #slider2 .slider-option {
+        display: table;
+        text-align: center;
+        height: 100%;
+        vertical-align: middle;
+        /* line-height: 25; */
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    div.top-content {
+        width: 100%;
+        height: 640px;
+        background-image: url(../img/back-big.png);
+        background-size: cover;
+        position: relative;
+    }
+}

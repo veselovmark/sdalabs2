@@ -1,0 +1,266 @@
+.box2 {
+    background: url(../img/back-big.png), url(../img/back-bigT.png);
+    background-size: cover;
+    padding: 5% 0%;
+    font-size: 36px;
+    position: relative;
+}
+
+div.option {
+    position: relative;
+    height: 50vh;
+}
+
+.option.appear {
+    animation: option-appear 2s;
+}
+
+@keyframes option-appear {
+    0% {
+        top: 500px;
+        opacity: 0;
+    }
+    100% {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+div.option:before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    left: 10%;
+    top: 10%;
+    opacity: 0.8;
+}
+
+div.option-dark {
+    /*position: relative;
+    background-color: #41D8A6;*/
+}
+
+.option-image {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+
+.option-text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    line-height: normal;
+}
+
+.option-text-header {
+    position: relative;
+    font-size: 2em;
+}
+
+.option-text-main {
+    position: relative;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+div.option-dark .option-image {
+    position: relative;
+    left: 20%;
+}
+
+div.option-light .option-image {
+    position: relative;
+    left: 55%;
+}
+
+.option-dark .option-text-outer {
+    position: relative;
+    right: -25%;
+    color:black;
+}
+
+.option-light .option-text-outer {
+    position: relative;
+    color: black;
+    left: -15%;
+}
+
+.option-image-svg {
+    height: 80%;
+}
+
+.option-text-outer {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+.option-dark .option-devider {
+    display: inline-block;
+    width: 0.2%;
+    height: 50%;
+    position: relative;
+    left: 20%;
+    background-color: black;
+    margin: 5% 0%;
+}
+
+.option-light .option-devider {
+    display: inline-block;
+    width: 0.2%;
+    height: 50%;
+    position: relative;
+    left: 20%;
+    background-color: black;
+    margin: 5% 0%;
+}
+
+.option-text-inner {
+    position: relative;
+    display: table;
+    height: 100%;
+}
+
+#option6 .option-image .option-image-svg {
+    position: relative;
+    top: -6%;
+    left: 11%;
+}
+
+@media (max-width: 980px) {
+    .box2 {
+
+    }
+
+    div.option {
+
+        height: 100vh;
+
+    }
+
+    div.option:before {
+
+    }
+
+    div.option-dark {
+
+    }
+
+    .option-image {
+
+        width: 60%;
+
+        height: 49%;
+
+        display: block;
+
+    }
+
+    .option-text {
+
+    }
+
+    .option-text-header {
+
+    }
+
+    .option-text-main {
+
+    }
+
+    div.option-dark .option-image {
+
+        /* width: 60%; */
+
+        /* height: auto; */
+
+        top: 10%;
+
+    }
+
+    div.option-light .option-image {
+
+        width: 60%;
+
+        height: 50%;
+
+        top: 10%;
+
+        left: 15%;
+
+    }
+
+    .option-dark .option-text-outer {
+
+        font-size: 15px;
+
+        text-align: center;
+
+        display: block;
+
+        width: 70%;
+
+        height: 40%;
+
+        left: 16%;
+
+    }
+
+    .option-light .option-text-outer {
+
+        font-size: 15px;
+
+        height: 40%;
+
+        width: 70%;
+
+        left: 15%;
+
+        text-align: center;
+
+    }
+
+    .option-image-svg {
+
+    }
+
+    .option-text-outer {
+
+    }
+
+    .option-dark .option-devider {
+
+        display: block;
+
+        width: 70%;
+
+        height:  0.2%;
+
+        left: 15%;
+
+    }
+
+    .option-light .option-devider {
+
+        width: 70%;
+
+        height: 0.2%;
+
+        left: 15%;
+
+    }
+
+    .option-text-inner {
+
+    }
+
+    #option6 .option-image .option-image-svg {
+
+    }
+}

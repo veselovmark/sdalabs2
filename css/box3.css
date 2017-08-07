@@ -1,0 +1,220 @@
+.box3 {
+    position:relative;
+    margin: 5% 0% 5% 0%;
+}
+
+.map {
+    position:relative;
+}
+
+.map-image {
+    position: relative;
+    width: 100%;
+}
+
+.contact {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 70%;
+    width: 40%;
+    background-color: #41D8A6;
+    font-size: 36px;
+    color: white;
+    padding: 0%;
+}
+
+.contact.appear {
+    animation: contact-appear 2s;
+}
+
+@keyframes contact-appear {
+    0% {
+        top: 80%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 10%;
+        opacity: 1;
+    }
+}
+
+.mail {
+    position: relative;
+    margin: 2% 10% 0% 10%;
+    padding: 0% 0% 0% 0%;
+    /* border-bottom: 5px solid white; */
+}
+
+.mail-icon {
+    position: relative;
+    display: inline-block;
+    font-size: 160px;
+    padding: 0% 0%;
+}
+
+.mail-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2em;
+    margin: 5% 5%;
+}
+
+.contacts {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    margin: 0% 0% 0% 8%;
+}
+
+.pointer-icon {
+    position: relative;
+    display: inline-block;
+    /* width: 20%; */
+    font-size: 200px;
+    vertical-align: top;
+}
+
+.contacts-text {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin: 0% 1%;
+    font-size: 1.5em;
+}
+
+#sda-labs {
+    font-weight: 800;
+    margin: 0% 0% 0% 0%;
+}
+
+#mipt {
+    font-weight: 100;
+    margin: 2% 0% 0% 0%;
+    font-size: 0.7em;
+}
+
+#dlg {
+    font-weight: 100;
+    margin: 2% 0% 0% 0%;
+    font-size: 0.7em;
+}
+
+#street {
+    font-weight: 100;
+    margin: 2% 0% 0% 0%;
+    font-size: 0.7em;
+}
+
+#tel {
+    font-weight: 100;
+    margin: 2% 0% 0% 0%;
+    font-size: 0.7em;
+}
+
+.contacts-divider {
+    position: relative;
+    height: 5px;
+    background-color: white;
+    margin: -2% 10% 5% 10%;
+}
+
+@media (max-width: 980px) {
+    .box3 {
+
+        height: 50vh;
+
+    }
+
+    .map {
+
+        visibility: hidden;
+
+    }
+
+    .map-image {
+
+    }
+
+    .contact {
+
+        top: 0%;
+
+        right: 0%;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 12px;
+
+    }
+
+    .mail {
+
+    }
+
+    .mail-icon {
+
+        font-size: 80px;
+
+    }
+
+    .mail-text {
+
+    }
+
+    .contacts {
+
+    }
+
+    .pointer-icon {
+
+        font-size: 100px;
+
+    }
+
+    .contacts-text {
+
+    }
+
+    #sda-labs {
+
+    }
+
+    #mipt {
+
+    }
+
+    #dlg {
+
+    }
+
+    #street {
+
+    }
+
+    #tel {
+
+    }
+
+    .contacts-divider {
+
+        height: 2px;
+    }
+
+    @keyframes contact-appear {
+        0% {
+            top: 80%;
+            opacity: 0;
+        }
+
+        100% {
+            top: 0%;
+            opacity: 1;
+        }
+    }
+}

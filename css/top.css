@@ -1,0 +1,143 @@
+.top-content-text-container {
+    /* font-size: 2em; */
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    height: 50%;
+    width: 40%;
+    color: white;
+    animation: top-content-text-container-appear 2s;
+}
+
+@keyframes top-content-text-container-appear{
+    0% {
+        top: 65%;
+        opacity: 0;
+    }
+    100% {
+        top: 35%;
+        opacity: 1;
+    }
+}
+
+.top-content-text-header {
+    font-size: 10em;
+}
+
+.top-content-text-main {
+    font-size: 7em;
+    font-weight: 100;
+}
+
+.top-content-img-container {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    height: 60%;
+    animation: top-content-img-container-appear 2s;
+}
+
+@keyframes top-content-img-container-appear{
+    0% {
+        left: 100%;
+        opacity: 0;
+    }
+    100% {
+        left: 50%;
+        opacity: 1;
+    }
+}
+
+.top-content-img {
+    position: absolute;
+    /* top: 0%; */
+    /* right: 0%; */
+    height: 100%;
+    /* width: 100%; */
+}
+
+.top-content-button {
+    height: 100px;
+    width: 350px;
+}
+
+.top-buttons {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: inline-block;
+}
+
+@media (max-width: 1600px) {
+    .top-content-text-container {
+        font-size: 1em;
+        position: absolute;
+        top: 18%;
+        left: 6%;
+        height: 50%;
+        width: 90%;
+        color: white;
+        padding: 0% 0%;
+    }
+
+    .top-content-text-header {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .top-content-text-main {
+        font-size: 2em;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .top-content-img-container {
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        height: 40%;
+    }
+
+    .top-content-img {
+        /* top: 23%; */
+        /* right: 0%; */
+        height: 100%;
+        /* width: 50%; */
+    }
+
+    .top-content-button {
+        height: 38px;
+        width: 100px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    .top-buttons {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        display: inline-block;
+    }
+
+    @keyframes top-content-text-container-appear{
+        0% {
+            top: 68%;
+            opacity: 0;
+        }
+        100% {
+            top: 18%;
+            opacity: 1;
+        }
+    }
+
+    @keyframes top-content-img-container-appear{
+        0% {
+            left: 100%;
+            opacity: 0;
+        }
+        100% {
+            left: 0%;
+            opacity: 1;
+        }
+    }
+}
