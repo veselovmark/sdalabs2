@@ -9,7 +9,7 @@ div.top-content {
     background-image: url(../img/back-big.png);
     background-size: cover;
     position: relative;
-    top: -8px;
+    top: -15px;
 }
 
 div.slider#slider1 {
