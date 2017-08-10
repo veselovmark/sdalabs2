@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto Condensed";
     font-size: 0.4vw;
+    overflow-x: hidden;
 }
 
 div.top-content {
