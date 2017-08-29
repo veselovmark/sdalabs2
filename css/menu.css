@@ -45,7 +45,7 @@
 .top-menu-option     {
     position: relative;
     width: 12vw;
-    margin: 0% 25px;
+    margin: 0% 1vw;
     text-align: center;
     transition: all 0.3s;
     display: inline-block;
