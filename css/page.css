@@ -230,6 +230,7 @@ div.slider#slider2 {
         font-size: 0.5vw;
         min-width: 360px;
         position: relative;
+        overflow-x: hidden;
     }
 
     .menu {
