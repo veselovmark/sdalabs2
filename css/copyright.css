@@ -3,6 +3,7 @@
     height: 20vh;
     background-color: #41d8a6;
     padding: 5vh 0%;
+    text-align: center;
 }
 
 .copyright-header {
@@ -42,17 +43,17 @@
 
 .copyright-button-mail {
     position: relative;
-    left: 30vw;
+    
 }
 
 .copyright-button-vk {
     position: relative;
-    left: 30vw;
+    
 }
 
 .copyright-button-twitter {
     position: relative;
-    left: 30vw;
+    
 }
 
 @media (max-width: 980px) and (orientation: portrait)  {
@@ -86,19 +87,19 @@
 
     .copyright-button-mail {
 
-        left: 15%;
+        
 
     }
 
     .copyright-button-vk {
 
-        left: 10%;
+        
 
     }
 
     .copyright-button-twitter {
 
-        left: 5%;
+        
 
     }
 
