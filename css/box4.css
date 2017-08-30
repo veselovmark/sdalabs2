@@ -3,6 +3,8 @@
     height: 60vh;
     padding: 0% 15%;
     font-size: 3em;
+    visibility: hidden;
+    height: 0px;
 }
 
 .write-header {
